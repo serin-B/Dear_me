@@ -1,11 +1,11 @@
-import React from "react";
 import "./App.css";
+import Layout from "./Layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold">Summer Marcket</h1>
-    </div>
+    <Layout>
+      <div className="App"></div>
+    </Layout>
   );
 }
 
